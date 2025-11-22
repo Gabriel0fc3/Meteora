@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: grey;
+    background-color: black;
     padding: 10px 20px;
     position: sticky;
     margin-top: 0;
@@ -17,4 +17,47 @@
     color: white;
     text-decoration: none;
     margin-right: 15px;
+}
+.nav-links a:hover{
+    color: yellow;
+}
+
+.logo{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.pesquisar-conteiner{
+    display: flex;
+    gap: 10px;
+}
+
+.pesquisar-input{
+    padding: 5px 10px;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    border: 1px white solid;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: transform 0.5s, border-color 0.3s;
+}
+
+.pesquisar-input:hover{
+    border-color: white;
+    transform: scale(1.05);
+}
+
+.pesquisar-botao{
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    transition: transform 0.5s, background-color 0.3s;
+}
+
+.pesquisar-botao:hover{
+    background-color: grey;
+    transform: scale(1.1);
 }
