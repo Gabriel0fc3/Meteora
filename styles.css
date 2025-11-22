@@ -4,6 +4,7 @@
     align-items: center;
     background-color: black;
     padding: 10px 20px;
+    border-radius: 15px;
     position: sticky;
     margin-top: 0;
 }
@@ -26,8 +27,13 @@
     color: white;
     font-size: 30px;
     font-weight: bold;
+    transition: tranfosform 0.5s, color 0.3s;
 }
 
+.logo:hover{
+    transform: scale(1.2);
+    color: yellow;
+}
 .pesquisar-conteiner{
     display: flex;
     gap: 10px;
