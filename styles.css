@@ -27,7 +27,7 @@
     color: white;
     font-size: 30px;
     font-weight: bold;
-    transition: tranfosform 0.5s, color 0.3s;
+    transition: transform 0.5s, color 0.3s;
 }
 
 .logo:hover{
